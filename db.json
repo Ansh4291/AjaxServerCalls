@@ -6,16 +6,6 @@
       "id": 3
     },
     {
-      "name": "Harry",
-      "salary": "5000",
-      "id": 4
-    },
-    {
-      "name": "Lisa",
-      "salary": "2000",
-      "id": 5
-    },
-    {
       "name": "Anshul",
       "salary": "11000",
       "id": 6
@@ -29,6 +19,16 @@
       "name": "Harry",
       "Salary": "5000",
       "id": 8
+    },
+    {
+      "name": "Ansh",
+      "salary": "5000",
+      "id": 9
+    },
+    {
+      "name": "Ansh",
+      "salary": "5000",
+      "id": 10
     }
   ]
 }
