@@ -8,7 +8,7 @@ function showTime() {
 function makeAJAXCall(methodType, url, callback, async = true, data = null) {
     let xhr = new XMLHttpRequest();
     xhr.onreadystatechange = function () {
-        console.log(methodType + " State changed called at :=> " + showTime() + " RS:=> " + xhr.readyState + " Status:=> " + xhr.status);
+        // console.log(methodType + " State changed called at :=> " + showTime() + " RS:=> " + xhr.readyState + " Status:=> " + xhr.status);
         if (xhr.readyState === 4) {
             if (xhr.status === 200 || xhr.status === 201) {
                 callback(xhr.responsetext);
